@@ -54,14 +54,46 @@
 		BE541F4D1F3CD589005DA857 /* App-Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				BE6F68C11F3E41D100E5BBDA /* Model */,
+				BE6F68C01F3E41C500E5BBDA /* View */,
+				BE6F68BF1F3E41B900E5BBDA /* Controller */,
+				BE6F68C21F3E41D800E5BBDA /* Resources */,
 				BE541F4E1F3CD589005DA857 /* AppDelegate.swift */,
-				BE541F501F3CD589005DA857 /* ViewController.swift */,
-				BE541F521F3CD589005DA857 /* Main.storyboard */,
-				BE541F551F3CD589005DA857 /* Assets.xcassets */,
 				BE541F571F3CD589005DA857 /* LaunchScreen.storyboard */,
+				BE541F521F3CD589005DA857 /* Main.storyboard */,
 				BE541F5A1F3CD589005DA857 /* Info.plist */,
 			);
 			path = "App-Swoosh";
+			sourceTree = "<group>";
+		};
+		BE6F68BF1F3E41B900E5BBDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE541F501F3CD589005DA857 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE6F68C01F3E41C500E5BBDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE6F68C11F3E41D100E5BBDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE6F68C21F3E41D800E5BBDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE541F551F3CD589005DA857 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
