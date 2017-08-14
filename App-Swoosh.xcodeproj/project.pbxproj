@@ -12,6 +12,7 @@
 		BE541F541F3CD589005DA857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE541F521F3CD589005DA857 /* Main.storyboard */; };
 		BE541F561F3CD589005DA857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE541F551F3CD589005DA857 /* Assets.xcassets */; };
 		BE541F591F3CD589005DA857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE541F571F3CD589005DA857 /* LaunchScreen.storyboard */; };
+		BE627D6B1F422F70008E3D08 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE627D6A1F422F70008E3D08 /* SkillVC.swift */; };
 		BE6F68C41F3E4BF700E5BBDA /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F68C31F3E4BF700E5BBDA /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		BE541F551F3CD589005DA857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE541F581F3CD589005DA857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE541F5A1F3CD589005DA857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE627D6A1F422F70008E3D08 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		BE6F68C31F3E4BF700E5BBDA /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				BE541F501F3CD589005DA857 /* MainVC.swift */,
+				BE627D6A1F422F70008E3D08 /* SkillVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE627D6B1F422F70008E3D08 /* SkillVC.swift in Sources */,
 				BE541F511F3CD589005DA857 /* MainVC.swift in Sources */,
 				BE541F4F1F3CD589005DA857 /* AppDelegate.swift in Sources */,
 				BE6F68C41F3E4BF700E5BBDA /* BorderButton.swift in Sources */,
