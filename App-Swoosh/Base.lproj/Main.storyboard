@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -100,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="71.514242878560722"/>
         </scene>
-        <!--SkillVC-->
+        <!--LeagueVC-->
         <scene sceneID="S6C-xh-Avl">
             <objects>
-                <viewController id="Zt6-eB-s44" customClass="SkillVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zt6-eB-s44" customClass="LeagueVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Fp-zt-mml"/>
                         <viewControllerLayoutGuide type="bottom" id="PFw-mS-B9D"/>
@@ -126,7 +125,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TAe-fJ-UqS" kind="show" id="eqs-9z-0Oi"/>
+                                    <action selector="nextTapped:" destination="Zt6-eB-s44" eventType="touchUpInside" id="IOh-4C-9aD"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="wwJ-06-bSq">
@@ -193,7 +192,7 @@
                                 </constraints>
                                 <state key="normal" image="backButton"/>
                                 <connections>
-                                    <segue destination="9jz-Li-SSn" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSegue:" id="mdy-uJ-Kgb"/>
+                                    <segue destination="9jz-Li-SSn" kind="unwind" unwindAction="unwindFromLeagueVCWithUnwindSegue:" id="AMC-rh-9oB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -216,16 +215,19 @@
                             <constraint firstAttribute="trailingMargin" secondItem="wwJ-06-bSq" secondAttribute="trailing" id="z17-z4-crV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="TAe-fJ-UqS" kind="show" identifier="skillVCSegue" id="PW9-kn-bTE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P9Z-q6-8YX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="9jz-Li-SSn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="743.20000000000005" y="71.514242878560722"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="tye-Iq-f9t">
             <objects>
-                <viewController id="TAe-fJ-UqS" sceneMemberID="viewController">
+                <viewController id="TAe-fJ-UqS" customClass="SkillVC" customModule="App_Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i9K-V6-1EW"/>
                         <viewControllerLayoutGuide type="bottom" id="LuA-Oh-7b0"/>
@@ -295,7 +297,7 @@
                                 </constraints>
                                 <state key="normal" image="backButton"/>
                                 <connections>
-                                    <segue destination="TUq-wf-MXm" kind="unwind" unwindAction="unwindFromBeginnerBallerVCWithUnwindSegue:" id="ePQ-yc-BBX"/>
+                                    <segue destination="TUq-wf-MXm" kind="unwind" unwindAction="unwindFromSkillVCWithUnwindSegue:" id="E6g-KM-7vp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -322,7 +324,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xx9-T2-zqg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="TUq-wf-MXm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1429.5999999999999" y="71.514242878560722"/>
+            <point key="canvasLocation" x="1471" y="72"/>
         </scene>
     </scenes>
     <resources>
